@@ -10,7 +10,7 @@
           - tree
           - wget
         when: ansible_os_family =="Debian"
-  - name: i want to install multi packages on redhat
+  - name: i want to install multi packages on RedHat
     yum:
         name: "{{ item }}"
         loop: 
