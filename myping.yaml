@@ -6,5 +6,5 @@
       ping:
          name: i want to install webserver
          apt:
-           name: apache2
+         - name: apache2
            state: present
