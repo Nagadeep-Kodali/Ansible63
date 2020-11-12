@@ -2,7 +2,7 @@
 - hosts: webservers
   become: yes
   tasks: 
-  - name: install multi packages on ubuntu16
+  - name: i want to install multi packages on ubuntu16
     apt:
         name: "{{ item }}"
         loop: 
@@ -10,7 +10,7 @@
           - tree
           - wget
         when: ansible_os_family =="Debian"
-  - name: install multi packages on redhat
+  - name: i want to install multi packages on redhat
     yum:
         name: "{{ item }}"
         loop: 
