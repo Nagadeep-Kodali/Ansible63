@@ -1,5 +1,5 @@
 ---
-- hosts: web servers
+- hosts: webservers
   become: yes
   tasks: 
   - name: install multi packages on ubuntu16
