@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks: 
-    - name: install multi packages on ubuntu16
+    - name: install git
       apt:
         name: "{{ item }}"
         loop: 
