@@ -1,5 +1,5 @@
 ---
-- StudentDetails:
+- studentdetails:
   - name: anudeep
     phno: 8989898989
     course: devops
