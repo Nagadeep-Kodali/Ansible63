@@ -4,11 +4,11 @@
   tasks: 
     - name: install multi packages on ubuntu16
       apt:
-       name: "{{ item }}"
-       loop: 
-        - git
-        - tree
-        - wget
-       when: ansible_os_family =="Debian"
+        name: "{{ item }}"
+        loop: 
+          - git
+          - tree
+          - wget
+        when: ansible_os_family =="Debian"
 
     
