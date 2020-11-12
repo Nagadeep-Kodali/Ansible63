@@ -9,7 +9,7 @@
   - name: i want to install tree on ubuntu16
     apt:
       name: tree
-      state: present
+      state: absent
   - name: i want to install git on ubuntu16
     apt:
       name: git
