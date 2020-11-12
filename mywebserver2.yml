@@ -1,8 +1,8 @@
 ---
-  - hosts: all
-    become: yes
-    gatherfacts: no
-    tasks: 
+- hosts: all
+  become: yes
+  gatherfacts: no
+  tasks: 
     - name: i want to install webserver on ubuntu16
       apt: 
         name: apache2
