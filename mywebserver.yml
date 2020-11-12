@@ -4,7 +4,7 @@
   tasks:
   - name: i want to install webserver on ubuntu16
     apt:
-      name: apahe2
+      name: apache2
       state: present
   - name: i want to install tree on ubuntu16
     apt:
