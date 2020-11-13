@@ -24,7 +24,6 @@
 172.31.25.61
 
 [webservers:vars]
-key: value
 mywebpackonubuntu= apache2
 mywebpackonredhat= httpd
 mywebtext= i want to install webserver on ubuntu16
