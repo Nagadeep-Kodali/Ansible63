@@ -1,3 +1,9 @@
+172.31.29.89
+172.31.30.109
+
+172.31.47.153
+172.31.21.57
+
 [webservers]
 172.31.29.89
 172.31.30.109
@@ -18,6 +24,7 @@
 172.31.25.61
 
 [webservers:vars]
+key: value
 mywebpackonubuntu= apache2
 mywebpackonredhat= httpd
 mywebtext= i want to install webserver on ubuntu16
