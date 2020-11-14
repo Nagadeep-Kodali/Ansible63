@@ -1,19 +1,18 @@
 [webservers]
 172.31.29.89
 
-
-[app servers]
+[appservers]
 172.31.48.154
 172.31.22.58
 
-[db servers]
+[dbservers]
 172.31.49.155
 172.31.23.59
 
-[debian servers]
+[debianservers]
 172.31.50.156
 172.31.24.60
 
-[redhat servers]
+[redhatservers]
 172.31.25.61
 
