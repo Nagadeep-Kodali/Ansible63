@@ -1,0 +1,5 @@
+---
+- name: i want to create a file on ansible nodes
+  file:
+    path: /home/ubuntu/nagatextfile.txt
+    state: touch  
